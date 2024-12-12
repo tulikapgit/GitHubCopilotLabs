@@ -1,8 +1,8 @@
 # Goal
 
-The goal is to create a Minimal WebAPI using .NET 8.0 and a corresponding Docker image with the help of GitHub Copilot.
+The goal is to create a Minimal WebAPI using .NET 8.0 with the help of GitHub Copilot.
 Follow the instructions below and try to use GitHub Copilot as much as possible.
-Try different things and see what GitHub Copilot can do for you, like generating a Dockerfile or a class, add comments, etc.
+Try different things and see what GitHub Copilot can do for you, like generating a class, add comments, etc.
 
 > Make sure GitHub Copilot is configure and enabled for the current laguage, just check the status bar on the bottom right corner of VS Code.
 
