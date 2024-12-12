@@ -13,39 +13,12 @@ The `dotnet` folder contains the `MinimalAPI.sln` solution, with 2 projects:
 - `MinimalAPI` is a minimal WebAPI project created using `dotnet new webapi -minimal`
 - `MinimalAPI.Tests` is a minimal xUnit project created using `dotnet new xunit`
 
-To run the tests, open a terminal in the `dotnet` folder and run:
-
-``` bash
-dotnet test
-```
-
-To run the app, open a terminal in the `dotnet` folder and run:
-
-**Windows environments**
-``` bash
-dotnet run --project .\MinimalAPI\MinimalAPI.csproj
-```
-
-**Codespaces, Linux & Unix environments**
-``` bash
-dotnet run --project ./MinimalAPI/MinimalAPI.csproj
-```
-
 ### Exercise 1: Introduction
 
-- Inside `MinimalAPI\Program.cs` add a new Hello World endpoint at `/` that returns a `Hello World!` string. You can test the Copilot inline feature by pressing `ctrl + i`. Then write in the text box the desired behaviour. 
-- Run `dotnet test`
-- If test pass you should see something like this:
-
-``` bash
+- Inside `MinimalAPI\Program.cs` add a new Hello World endpoint at `/` that returns a `Hello World!` string. 
 Microsoft (R) Test Execution Command Line Tool Version 17.6.0 (x64)
 Copyright (c) Microsoft Corporation.  All rights reserved.
 
-Starting test execution, please wait...
-A total of 1 test files matched the specified pattern.
-
-Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: < 1 ms - MinimalAPI.Tests.dll
-```
 
 ### Exercise 2: Building new functionalities
 
