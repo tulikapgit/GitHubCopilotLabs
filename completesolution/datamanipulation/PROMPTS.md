@@ -8,7 +8,7 @@ Chat prompt: @workspace  /newNotebook create a notebook called "COVID19 Worldwid
 
 NOTE: In case you get an error related to "pandas library not found", use copilot to help you fixing it:
 
-![Pandas error fixed by copilot](https://github.com/tulikapgit/CopilotDeveloper/blob/main/completesolution/dataengineer/images/pandaserror.png)
+![Pandas error fixed by copilot](https://github.com/tulikapgit/GitHubCopilotLabs/blob/main/completesolution/dataengineer/images/pandaserror.png)
 
 ### 1.2 Display the number of rows and columns in the dataframe. 
 
