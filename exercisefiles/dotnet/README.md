@@ -140,16 +140,6 @@ We will create automated tests to check that the functionality of the previous e
 
 You can leverage Copilot to run the tests. There is a `/tests` command that you can directly run from Copilot Chat or by selecting the piece of code you want to create tests for and using the Copilot inline feature. 
 
-### Exercise 5: Create a Dockerfile
-
-Now that we have the new functionality added and tests covering it, lets create a Dockerfile for the Minimal API project. 
-
-- Build the image using Copilot and run the app on port 8080
-
-``` powershell
-docker build -t dotnetapp .
-docker run -d -p 8080:80 --name dotnetapp dotnetapp
-```
 
 ## Summary
 
