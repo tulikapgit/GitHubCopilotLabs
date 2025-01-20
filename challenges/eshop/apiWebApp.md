@@ -63,7 +63,7 @@ Ask Copilot Chat the following:
 >Second - an API to insert a new color.
 >im using .NET 8 minimal APIs
 
-![Tux, the Linux mascot](/assets/images/tux.png)
+![Tux, the Linux mascot](../images/img4.png)
 
 You can also prompt using an inline comment
 
