@@ -33,7 +33,7 @@ Notice the files created. Two projects (API and Test).
 Open Solution file - use F1 .NET Open Solution.
 Open Program.cs - remove existing Routes & Model (things to do with weather).
 We now have our basic API skeleton code - we shall now add the logic for our Colors API.
-![Tux, the Linux mascot](/assets/images/tux.png)
+![Tux, the Linux mascot](/images/devapi5-4c84a14346e59385a707ad37889cc613.png)
 
 # Add Data model
 
