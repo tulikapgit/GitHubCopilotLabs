@@ -85,7 +85,7 @@ Ask Copilot Chat the following.
 >I want a ValidateHexCode function using Regex - add to static class  ColorUtilities.
 
 Insert code into ColorUtilities.cs.
-![Tux, the Linux mascot](/assets/images/tux.png)
+![Tux, the Linux mascot](../images/img6.png)
 
 Irrespective of the code suggested, for lab purposes only check for 6 character hexcodes - we will fix this later.
 
