@@ -34,10 +34,12 @@ Open Solution file - use F1 .NET Open Solution.
 Open Program.cs - remove existing Routes & Model (things to do with weather).
 We now have our basic API skeleton code - we shall now add the logic for our Colors API.
 ![Tux, the Linux mascot](/assets/images/tux.png)
-Add Data model
+
+# Add Data model
+
 We first define the schema for our ColorsItem object:
 
-Create ColorsItem.cs
+>Create ColorsItem.cs
 
 Ask Copilot Chat the following
 
@@ -49,48 +51,61 @@ Switch back to Program.cs
 
 Ask Copilot Chat the following:
 
-Intialize a list of ColorsItem with  "red", "yellow", "black" 
+>Intialize a list of ColorsItem with  "red", "yellow", "black" 
 
 Insert code into Program.cs
 ![Tux, the Linux mascot](/assets/images/tux.png)
 Add API routes
 Ask Copilot Chat the following:
-using ColorsItem - create two API routes.
-First - an API to return all colors.   
-Second - an API to insert a new color.
-im using .NET 8 minimal APIs
+
+>using ColorsItem - create two API routes.
+>First - an API to return all colors.   
+>Second - an API to insert a new color.
+>im using .NET 8 minimal APIs
+
 ![Tux, the Linux mascot](/assets/images/tux.png)
+
 You can also prompt using an inline comment
 
-//add a route to return a random color
+>//add a route to return a random color
+
 ![Tux, the Linux mascot](/assets/images/tux.png)
+
 Hit Tab to accept the suggestion. Or use Alt [ and Alt ] to view alternatives.
-Add Utility function
+
+# Add Utility function
+
 Wwe shall now add some logic to validate the hexcode passed in the API call to add a new color.
 
 Create file ColorUtilities.cs and add code .
 
 Ask Copilot Chat the following.
 
-I want a new static class called ColorUtilities.
-I want a ValidateHexCode function using Regex - add to static class  ColorUtilities.
+>I want a new static class called ColorUtilities.
+>I want a ValidateHexCode function using Regex - add to static class  ColorUtilities.
 
 Insert code into ColorUtilities.cs.
 ![Tux, the Linux mascot](/assets/images/tux.png)
+
 Irrespective of the code suggested, for lab purposes only check for 6 character hexcodes - we will fix this later.
-  string pattern = @"^#([A-Fa-f0-9]{6})$";   // 6 character 
-  string pattern = @"^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$";   // 3 or 6 character 
+
+  >string pattern = @"^#([A-Fa-f0-9]{6})$";   // 6 character 
+  >string pattern = @"^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$";   // 3 or 6 character 
 
 Try this inline comment:
-// function to test for shade of red
+
+>// function to test for shade of red
 
 Switch back to Program.cs.
 
 Add Hexcode validation to the Insert new Color route . Might need encouragement / prompting to use our validation utility function.
 
-// hexcode validation
+>// hexcode validation
+
 ![Tux, the Linux mascot](/assets/images/tux.png)
-Run the API WebApp
+
+# Run the API WebApp
+
 Our API code is now complete
 
-Use F5 to run the application.
+Use F5 to run the application if you can.
