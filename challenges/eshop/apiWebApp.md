@@ -46,7 +46,7 @@ Ask Copilot Chat the following
 Create colors model called ColorsItem to include a name and hexcode.
 
 Insert code into ColorsItem.cs
-![Tux, the Linux mascot](/assets/images/tux.png)
+![Tux, the Linux mascot](../images/img2.png)
 Switch back to Program.cs
 
 Ask Copilot Chat the following:
