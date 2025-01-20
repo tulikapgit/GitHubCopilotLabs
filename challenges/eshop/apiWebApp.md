@@ -102,7 +102,7 @@ Add Hexcode validation to the Insert new Color route . Might need encouragement 
 
 >// hexcode validation
 
-![Tux, the Linux mascot](/assets/images/tux.png)
+![Tux, the Linux mascot](../images/img7.png)
 
 # Run the API WebApp
 
