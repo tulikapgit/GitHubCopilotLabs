@@ -69,7 +69,7 @@ You can also prompt using an inline comment
 
 >//add a route to return a random color
 
-![Tux, the Linux mascot](/assets/images/tux.png)
+![Tux, the Linux mascot](../images/img5.png)
 
 Hit Tab to accept the suggestion. Or use Alt [ and Alt ] to view alternatives.
 
