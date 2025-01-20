@@ -54,7 +54,7 @@ Ask Copilot Chat the following:
 >Intialize a list of ColorsItem with  "red", "yellow", "black" 
 
 Insert code into Program.cs
-![Tux, the Linux mascot](/assets/images/tux.png)
+![Tux, the Linux mascot](../images/img3.png)
 Add API routes
 Ask Copilot Chat the following:
 
